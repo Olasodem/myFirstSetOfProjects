@@ -1,0 +1,67 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Customer Satisfaction Survey</h1>
+<p id="description">We value your feedback! Please take a moment to share your experience with our products and services. </p>
+<form id="survey-form">
+  <label id="name-label" for="name"> Name( Required):</label>
+<input required type="text" id="name" name="name" size="20" placeholder="e.g., Olasode Mary"/>
+
+<label id="email-label" for="email">Email ( Required):</label>
+<input required type="email" id="email" name="email" size="20" placeholder="abcd@gmail.com"/>
+
+<label id="number-label" for="number">Phone Number:</label>
+<input type="number" id="number" min="11" max="20" age="number" placeholder="09022856590"/>
+<fieldset>
+  <legend>
+    How satisfied are you with our service?
+    </legend>
+    <input type="radio" value="very-satisfied" id="very-satisfied" name="satisfaction">
+    <label for="very-satisfied">Very Satisfied</label>
+        <input type="radio" value="satisfied" id="satisfied" name="satisfaction">
+    <label for="satisfied"> Satisfied</label>
+        <input type="radio" value="neutral" id="neutral" name="satisfaction">
+    <label for="Neutral">Neutral</label>
+        <input type="radio" value="dissatified" id="dissatified" name="satisfaction">
+    <label for="dissatified">Dissatified</label>
+</fieldset>
+  <fieldset>
+  <legend> What aspects of our service do you find most valuable?( Select all that apply)</legend>
+<input type="checkbox" id="product-quality" name="choice" value="product-quality"/>
+<label for="product-quality">Product Quality</label>
+<input type="checkbox" id="fast-delivery" name="choice" value="fast-delivery"/>
+<label for="fast-delivery">Fast Delivery</label>
+<input type="checkbox" id="friendly-staff" name="choice" value="friendly-staff"/>
+      <label for="friendly-staff">Friendly Staff</label>
+  <input type="checkbox" id="affordable-prices" name="choice" value="affordable-prices"/>
+      <label for="affordable-prices">Affordable Prices</label>
+    </fieldset>
+
+<fieldset>
+  <legend>
+    Ratings
+    </legend>
+<label for="service">How would you rate our customer service?</label>
+<select name="service" id="dropdown">
+  <option value="poor">Poor</option>
+    <option value="satisfactory">Satisfactory</option> 
+      <option value="good">Good</option> 
+        <option value="very-good">Very Good</option> 
+          <option selected value="excellent">Excellent</option> 
+          </select>  
+  </fieldset>
+<label for="comments">Additional Comments?</label>
+<textarea cols="30" rows="10" name="comments"></textarea>
+<button id="submit" type="submit">Submit</button>
+</form>
+  </body>
+</html>
+
+** end of index.html **
+
