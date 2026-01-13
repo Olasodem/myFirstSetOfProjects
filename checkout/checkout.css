@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.section-container{
+    padding: 10px;
+    margin-top: 80px;
+    
+}
+
+.text{
+    font-size: xx-large;
+    color: red;
+    
+}
